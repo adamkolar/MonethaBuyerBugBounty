@@ -6,7 +6,7 @@
 
 ## Contracts
 
-[MonthaBuyer.sol](./contracts/MonthaBuyer.sol)
+[MonethaBuyer.sol](./contracts/MonethaBuyer.sol)
 
 ## Report
 
