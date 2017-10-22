@@ -8,7 +8,7 @@
 
 [MonethaBuyer.sol](./contracts/MonethaBuyer.sol)
 
-## Report
+## Submission
 
 If the token buy fails and I call the withdraw function from a contract with nonzero ETH balance on the buyer contract, then after receiving the bounty deposit it back on the buyer contract (which is possible because there is no "!(now > earliest_buy_time + 1 hours)" check in the default payable function), I can call the withdraw again. If I do this recursively, I can claim most of the remaining withdrawal bounty in one transaction without performing any useful function.
 
